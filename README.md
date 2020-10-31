@@ -1,0 +1,2 @@
+# rabbitmq
+RabbitMq agent
