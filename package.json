@@ -1,0 +1,51 @@
+{
+  "name": "@alirezazeynali/rabbitmq",
+  "version": "1.0.0",
+  "description": "RabbitMq agent",
+  "main": "./build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx prettier --write .; gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alirezazeynali75/rabbitmq.git"
+  },
+  "keywords": [
+    "RabbitMq",
+    "Queue"
+  ],
+  "author": "Alireza Zeynali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alirezazeynali75/rabbitmq/issues"
+  },
+  "homepage": "https://github.com/alirezazeynali75/rabbitmq#readme",
+  "devDependencies": {
+    "@tsconfig/node12": "^1.0.7",
+    "@types/bluebird": "^3.5.30",
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.13.21",
+    "@types/validator": "^13.0.0",
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@typescript-eslint/parser": "^2.33.0",
+    "eslint": "^7.6.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "gulp": "^4.0.2",
+    "gulp-eslint": "^6.0.0",
+    "gulp-git": "^2.10.1",
+    "gulp-if": "^3.0.0",
+    "gulp-prettier": "^3.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "prettier": "2.0.5"
+  },
+  "dependencies": {
+    "amqplib": "^0.6.0",
+    "typescript": "^3.9.7"
+  }
+}

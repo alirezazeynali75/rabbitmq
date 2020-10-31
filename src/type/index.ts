@@ -1,0 +1,3 @@
+interface AmqpConfiguration {
+  durable: boolean;
+}
